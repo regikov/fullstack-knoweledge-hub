@@ -178,6 +178,14 @@ Object Definitions: This line defines a constant object user1 and 2 with propert
 
 &nbsp;
 
+### Array of Objects
+```javascript 
+const userList = [user1, user2];
+```
+In this line an array called userList is created that contains the user1 and user2 objects.
+
+&nbsp;
+
 ### Function to Display User Information
 
 ``` javascript
