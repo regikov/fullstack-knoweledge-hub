@@ -3,7 +3,7 @@
 
 ### **Overview**
 
-In this readme file, you can find some use cases of Objects and a line-by-line solution about [this class's](https://docs.google.com/presentation/d/1jUrlbLtdB9N3nMHlbknn5pgDuXoZLF4Ymy-sy6x7mK0/edit#slide=id.g2a9e913c11d_2_28) excercises, on 12th June 2024. 
+In this md file, you can find some use cases of Objects and a line-by-line solution about [this class's](https://docs.google.com/presentation/d/1jUrlbLtdB9N3nMHlbknn5pgDuXoZLF4Ymy-sy6x7mK0/edit#slide=id.g2a9e913c11d_2_28) excercises, on 12th June 2024. 
 
 &nbsp;
 
@@ -99,8 +99,11 @@ Additionally, a form for user registration is created, validating input and disp
 
 
 &nbsp;
+**<p align="center"> PART1: REMOVING USER BY ID</p>**
 
-   **<p align="center"> STEP1: JAVASCRIPT**</p> 
+&nbsp;
+
+**-----JAVASCRIPT-----**
 
 ### Function Definition: createUser
 ``` javascript
@@ -244,14 +247,12 @@ Append Element: This line adds the paragraph to the **personInfoElement,** displ
 ``` javascript
     displayUserInfo(userList);
 ```
-
 Function Call: This line calls the displayUserInfo function and passes the userList array as an argument.
 
 &nbsp;
 
-**<p align="center">STEP2: HTML</p>**
+**-----HTML CODE-----**
 
-&nbsp;
 
 ```html
 <body>
@@ -267,9 +268,8 @@ Following up on our JS, we have to modify the HTML by adding an *input field for
 
 &nbsp;
 
-**<p align="center">STEP3: JAVASCRIPT</p>**
+**-----JAVASCRIPT-----**
 
-&nbsp;
 
 ### Function Definition: removeUserById
 ```javascript
@@ -363,7 +363,9 @@ If **userId** is not a valid number, this block will execute. It shows an alert 
 
 &nbsp;
 
-**<p align="center">STEP4: HTML</p>**
+
+
+**<p align="center">PART2: REGISTRATION FORM</p>**
 
 ### User Registration Form 
 
@@ -395,7 +397,7 @@ Lastly, an added *button* that will register the users.
 
 &nbsp;
 
-**<p align="center">STEP5: JAVASCRIPT</p>**
+**-----JAVASCRIPT-----**
 
 ### Initialize User List
 ```javascript
@@ -531,7 +533,10 @@ Clear Input Fields: This function resets the values of the form input fields (us
 
 &nbsp;
 
-### Full HTML code
+**<p align="center">FINAL CODES</p>**
+
+
+### Complete HTML code
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -573,9 +578,8 @@ Clear Input Fields: This function resets the values of the form input fields (us
 
 &nbsp;
 
-### Full JS Code
+### Complete JS Code
 ```javascript 
-script.js
 // First example
 
 function createUser(name, id, numberOfProjects) {
@@ -649,7 +653,7 @@ function removeUserById() {
 
 // Example with form
 
-let userList = [];
+let userList2 = [];
 
 function registerUser() {
     
@@ -665,7 +669,7 @@ function registerUser() {
     }
 
 
-    const userId = userList.length + 1;
+    const userId = userList2.length + 1;
 
 
     const newUser = {
@@ -676,7 +680,7 @@ function registerUser() {
         email: email
     }
 
-    userList.push(newUser);
+    userList2.push(newUser);
 
     displayRegisteredUsers();
     clearRegistrationForm();
@@ -687,7 +691,7 @@ function displayRegisteredUsers() {
 
     registeredUsersList.innerHTML = "";
 
-    userList.forEach(user => {
+    userList2.forEach(user => {
         const userInfoParagraph = document.createElement("p");
         userInfoParagraph.textContent = `ID: ${user.id}, Username: ${user.username}, Name: ${user.name}, Age: ${user.age}, Email: ${user.email}`;
         registeredUsersList.appendChild(userInfoParagraph);
