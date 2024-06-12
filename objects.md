@@ -1,13 +1,13 @@
 # Objects in practice
 ## Guide for confused beginners
 
-**Overview**
+### **Overview**
 
 In this readme file, you can find some use cases of Objects and a line-by-line solution about [this class's](https://docs.google.com/presentation/d/1jUrlbLtdB9N3nMHlbknn5pgDuXoZLF4Ymy-sy6x7mK0/edit#slide=id.g2a9e913c11d_2_28) excercises, on 12th June 2024. 
 
 &nbsp;
 
-**1. What Are Objects?**
+### **1. What Are Objects?**
 
 An Object is an unordered collection of **properties**, where each property has a name (or key) and a value. These properties can hold any type of data, including other objects, arrays, or even functions.
 
@@ -17,7 +17,9 @@ A method is a function definition stored as a property value.
 
 &nbsp;
 
-**2. Ways to create Objects:**
+### **2. Ways to create Objects:**
+
+&nbsp;
 
 - **Object Literals**
 
@@ -29,7 +31,7 @@ This is the simplest and most common way to create an object. You define the obj
 
 let person = {
     name: "Alice",
-    age: 25,
+    age: 25, 
     greet: function() {
         console.log("Hello, my name is " + this.name);
     }
@@ -81,9 +83,10 @@ TBC LATER ON
 
 &nbsp;
 
-**3. EXCERCISE**
+### **3. Excercise**
 
 **SCOPE:**
+
 This exercise involves creating a simple HTML page with a paragraph element connected to a manager.js file. 
 
 In the JS file, we create two user objects, store them in an array, and provide functionality to remove users by ID. 
@@ -97,7 +100,7 @@ Additionally, a form for user registration is created, validating input and disp
 
 &nbsp;
 
- **--- STEP1: JAVASCRIPT ---**
+   **<p align="center"> STEP1: JAVASCRIPT**</p> 
 
 ### Function Definition: createUser
 ``` javascript
@@ -238,7 +241,7 @@ Function Call: This line calls the displayUserInfo function and passes the userL
 
 &nbsp;
 
-**--- STEP2: HTML ---**
+**<p align="center">STEP2: HTML</p>**
 
 &nbsp;
 
@@ -256,7 +259,7 @@ Following up on our JS, we have to modify the HTML by adding an *input field for
 
 &nbsp;
 
-**--- STEP3: JAVASCRIPT ---**
+**<p align="center">STEP3: JAVASCRIPT</p>**
 
 &nbsp;
 
@@ -352,7 +355,7 @@ If **userId** is not a valid number, this block will execute. It shows an alert 
 
 &nbsp;
 
-**--- STEP4: HTML ---**
+**<p align="center">STEP4: HTML</p>**
 
 ### User Registration Form 
 
@@ -384,7 +387,7 @@ Lastly, an added *button* that will register the users.
 
 &nbsp;
 
-**--- STEP4: HTML ---**
+**<p align="center">STEP5: JAVASCRIPT</p>**
 
 ### Initialize User List
 ```javascript
@@ -520,7 +523,7 @@ Clear Input Fields: This function resets the values of the form input fields (us
 
 &nbsp;
 
-### Full finished HTMl code
+### Full HTML code
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -562,7 +565,7 @@ Clear Input Fields: This function resets the values of the form input fields (us
 
 &nbsp;
 
-### Full finished JS code
+### Full JS Code
 ```javascript 
 script.js
 // First example
