@@ -1,4 +1,4 @@
-# Objects in practice
+# JS Objects in practice
 ## Guide for confused beginners
 
 ### **Overview**
