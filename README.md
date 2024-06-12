@@ -11,5 +11,8 @@ This space is a collection of learning materials and excercises for Full-Stack D
 
 ## Useful stuff: 
 
+- [js-cheatsheet.pdf](https://github.com/user-attachments/files/15808906/js-cheatsheet.pdf)
+- [arraymethods.pdf](https://github.com/user-attachments/files/15808921/arraymethods.pdf)
 
-![arraymethods](https://github.com/regikov/learning-materials/assets/169536723/d5144e12-f10d-450d-b873-607e0e68288f)
+
+
