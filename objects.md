@@ -178,7 +178,7 @@ Object Definitions: This line defines a constant object user1 and 2 with propert
 
 &nbsp;
 
-### Array of Objects
+### Array of User Objects
 ```javascript 
 const userList = [user1, user2];
 ```
