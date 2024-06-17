@@ -13,7 +13,13 @@ This space is a collection of learning materials and excercises for Full-Stack D
 
 - [js-cheatsheet.pdf](https://github.com/user-attachments/files/15808906/js-cheatsheet.pdf)
 - [arraymethods.pdf](https://github.com/user-attachments/files/15808921/arraymethods.pdf)
-- Algorithms exercises: https://github.com/scotch-io/ultimate-guide-to-javascript-algorithms/tree/master/Beginner
+- Algorithms exercises: 
+
+https://github.com/scotch-io/ultimate-guide-to-javascript-algorithms/tree/master/Beginner
+
+https://github.com/semlinker/AlgoCasts/tree/master/exercises
+
+
 
 
 
