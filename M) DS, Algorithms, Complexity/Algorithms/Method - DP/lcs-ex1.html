@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="TASK1.js"></script>
+    <title>Longest Common Subsequence</title>
+</head>
+<body>
+    <h1>Longest Common Subsequence</h1>
+    <form id="lcsForm">
+        <label for="string1">String 1:</label>
+        <input type="text" id="string1" name="string1" required>
+        <br><br>
+        <label for="string2">String 2:</label>
+        <input type="text" id="string2" name="string2" required>
+        <br><br>
+        <button type="button" onclick="calculateLCSLength()">Calculate LCS Length</button>
+        <button type="button" onclick="calculateLCSString()">Calculate LCS String</button>
+    </form>
+    <p id="resultLength"></p>
+    <p id="resultString"></p>
+</body>
+</html>

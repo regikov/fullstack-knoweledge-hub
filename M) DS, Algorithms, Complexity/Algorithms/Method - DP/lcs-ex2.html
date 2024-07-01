@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>All Common Subsequences</title> 
+</head>
+<body>
+    <h1>Find All Common Subsequences</h1> 
+    <form id="commonSubsequencesForm"> <!-- form element for user inputs -->
+        <label for="string1">String 1:</label> <!-- label for the first string input -->
+        <input type="text" id="string1" name="string1" required> <!-- Input field for the first string -->
+        <br><br> 
+        <label for="string2">String 2:</label> <!-- label for the second string input -->
+        <input type="text" id="string2" name="string2" required> <!-- Input field for the second string -->
+        <br><br> 
+        <label for="length">Desired Subsequence Length:</label> <!-- label for the desired subsequence length input -->
+        <input type="number" id="length" name="length" required> <!-- Input field for the desired subsequence length -->
+        <br><br> 
+        <button type="button" onclick="findCommonSubsequences()">Find Common Subsequences</button> <!-- buttonto trigger the calculation -->
+    </form>
+    <p id="resultSubsequences"></p> <!-- paragraph to display the result -->
+
+    <script src="TASK2.js"></script> 
+</body>
+</html>
