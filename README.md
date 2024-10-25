@@ -8,10 +8,8 @@ Any contribution is appreciated
 # Technologies/concepts covered: 
 - Data Structures and Algorithms
 - JavaScript (+ Node.js)
-- TypeScript
-- HTML
-- CSS
-- SQL/MongoDB + ORMs
+- TypeScript (WIP)
+- SQL/MongoDB + ORMs (WIP)
 
 
 # My Miro boards: 
