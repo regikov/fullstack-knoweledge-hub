@@ -1,6 +1,6 @@
 # What is this repo?
 
-This space is a collection of learning materials, my notes and excercises for anyone wanting to learn Full-Stack Wev development. 
+This space is a collection of learning materials, my notes and excercises for anyone wanting to learn Full-Stack Web development. 
 
 Please feel free to clone/fork :) 
 Any contribution is appreciated 
